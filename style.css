@@ -40,8 +40,8 @@ main time{
   color: white;
   padding: 5px 20px;
   border-radius: 5px;
-  box-shadow: 0 2px 3px white,
-              0 -2px 3px white;
+  box-shadow: 0 2px 2px white,
+              0 -2px 2px white;
   
 }
 #currentDayOfTheWeek{

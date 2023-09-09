@@ -14,4 +14,4 @@ function daysAndTime(){
   let time = today.getTime()
   b.innerHTML = time;
 }
-setInterval(daysAndTime, 1000)
+setInterval(daysAndTime, 100)
