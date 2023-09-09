@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 100%;
+  max-height: 90vh;
+  background-color: gray;
+}                       
+main{
+  width: 300px;
+  height: 500px;
+  margin: 15% auto;
+  border-radius: 5px;
+  background: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main h1{
+  color: coral;
+  text-shadow: 2px -2px 2px black;
+}
+main img{
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 20px;
+  display: inline-block;
+  box-shadow: 0 2px 4px black,
+              0 -2px 4px black;        
+}
+main time{
+  font-size: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px white,
+              0 -2px 2px white;
+  
+}
+#currentDayOfTheWeek{
+  background-color: transparent;
+  color: black;
+  box-shadow: none;
+}
+main p{
+  font-size: 22px;
+  font-family: monospace;
+  color: coral;
+}
