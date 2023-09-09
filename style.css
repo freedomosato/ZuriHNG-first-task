@@ -53,4 +53,17 @@ main p{
   font-size: 22px;
   font-family: monospace;
   color: coral;
+  margin-bottom: 20px;
+}
+
+main a{
+  color: black;
+  text-decoration: none;
+  padding: 4px 20px;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px black,
+              0 -2px 2px black;
+}
+main a:hover{
+  border: 1px solid coral;
 }
