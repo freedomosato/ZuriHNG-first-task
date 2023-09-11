@@ -10,8 +10,8 @@ body{
 }                       
 main{
   width: 300px;
-  height: 500px;
-  margin: 5% auto;
+  height: 550px;
+  margin: 3% auto;
   border-radius: 5px;
   background: lightgray;
   display: flex;
@@ -19,6 +19,8 @@ main{
   justify-content: center;
   align-items: center;
   text-align: center;
+  box-shadow: 0 2px 4px black,
+              0 -2px 4px black;
 }
 main h1{
   color: coral;
@@ -48,6 +50,7 @@ main time{
   background-color: transparent;
   color: black;
   box-shadow: none;
+  text-transform: capitalize;
 }
 main p{
   font-size: 22px;
